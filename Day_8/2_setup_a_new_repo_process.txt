@@ -1,0 +1,9 @@
+1. In local project/folder:
+    git init(don't do multiple times)
+
+2. git add.
+3. git commit -m "<commit_message>"
+4. git branch -M main
+5. create a new remote (GitHub) repo . In this GitHub repo we can find remote command to connect remote to local repo
+6. Paste the remote command to loacal.
+7. git push origin main
