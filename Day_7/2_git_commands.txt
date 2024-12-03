@@ -11,6 +11,28 @@ Initialize A Repository In Local
 1. git init (But make sure you are in correct project location)
 2. git status (Check the current status of the repo)
 3 .git add . (Add all the changes to git repo)
-4 .git commit -m "<commit_message>" 
+4 .git commit -m "<commit_message>" (commit the changes added to git)
 5 . git branch  {list all the git branches}(to check the branch master or main ,// if master then write a command : git branch -M main )
 6 . git remote -v (list all the remote urls)
+7. git remote -v
+    (This command displays all the remotes connected to your local repo)
+{
+                                                     #for_new_github_user# 
+                                                     
+   * open website and search generate new ssh key and search your os (windows, mac, linux ) and then scroll down to "Generate a New ssh Key "and copy that 
+    code(ssh-keygen -t rsa -b 4096 -C "your_email@example.com") and open command promt on your device and paste that code by changing your email address
+
+     *ssh-keygen -t ed25519 -C "youremail@gmail.com"
+    (It generates a new ssh-key for your local(laptop/pc))
+
+   * after that press enter until you see a graph/rsa.pub 
+
+   * then (cd .ssh -> and after that dir -> and after that write : type id_rsa.pub )
+
+   * then a unique id will appear , copy that id and paste it into your
+    (github profile seetings -> ssh and gpg keys -> New ssh key -> copy that link 'name is optional' then save)
+}
+
+
+9. git push -u origin <remote_branch_name>
+    (This command push the code to your remote code)
