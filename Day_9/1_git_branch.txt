@@ -11,3 +11,9 @@
     ==> Step 2 and 3 can be obtained from this single command i.e. create a new branch and jump to 
     that newly created branch with all the codes from existing branch.
 
+5. git merge <branch_name>
+    ==> Merges the code from the branch name provided to the current branch
+
+6. git pull OR # git pull origin <branch_name>
+    ==> Pulls the code from remote branch to the local branch 
+
