@@ -5,3 +5,5 @@ is commited and the same lines of code in other branch is also commited
 a = 1
 b = 2
 print(a*b)
+print(a-b)
+
