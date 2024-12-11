@@ -12,9 +12,15 @@ result = filter(get_even_nums, nums)
 print(nums)
 print(list(result))
 
+result = filter(lambda x: x % 2 ==0, nums) # using lambda function
+print(list(result))
+
 def get_multiple_of_5(data):
     return data % 5 == 0
 
 result = filter(get_multiple_of_5, nums)
 print(nums)
+print(list(result))
+
+result = filter(lambda x: x % 5 == 0, nums) # using lambda function
 print(list(result))

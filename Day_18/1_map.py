@@ -17,3 +17,6 @@ print(list(result))
 
 r = map(increase_by_power, nums)
 print(list(r))
+
+result = map(lambda x: x + 10,nums) # using lambda function
+print(list(result))
