@@ -1,5 +1,5 @@
 Setup Git Configuration in Local 
-1. git config --global user.name "beeplovebhandari"
+1. git config --global user.namebeeplovebhandari"
 2. git config --global user.email "bbhandari0304@gmail.com"
 3. To verify; git config --global user.name
               git config --global user.email
@@ -36,3 +36,4 @@ Initialize A Repository In Local
 
 9. git push -u origin <remote_branch_name>
     (This command push the code to your remote code)
+jason
